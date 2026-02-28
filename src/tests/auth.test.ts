@@ -1,7 +1,7 @@
 import { describe, expect, test } from "vitest";
 
 const person = {
-  isActive: false, // temp change to see ci worflow fail
+  isActive: true,
   age: 32,
 };
 
