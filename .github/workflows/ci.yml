@@ -42,3 +42,6 @@ jobs:
 
       - name: Format with Prettier
         run: npm run format:check
+
+      - name: Lint with ESLint
+        run: npm run lint
